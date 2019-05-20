@@ -1,0 +1,198 @@
+@import "base.css";
+
+.void{
+    width: 2.90rem;
+    height: 4.7rem;
+    margin: 0 auto;
+    display: none;
+    color: #000000;
+    opacity: 0.4;
+    font-size: 0.26rem;
+    align-items: center;
+}
+.void  > img{
+    width: 2.81rem;
+    height: 2.55rem;
+}
+.void > a.more >img{
+    width: 1.96rem;
+    height: 0.6rem;
+    margin-top: 0.52rem;
+}
+header{
+    width: 100%;
+    height: 0.88rem;
+    background: #fbfeff;
+    line-height: 0.88rem;
+    padding: 0 0.24rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+}
+header > a{
+    color: #36a8fe;
+}
+header p{
+    color: #4ebbfe;
+    font-size: 0.38rem;
+    line-height: 0.88rem;
+    text-align: center;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+.banner {
+    width: 100%;
+    height: 7.02rem;
+    padding: 1.7rem 2.24rem;
+    box-sizing: border-box;
+}
+.box{
+    width: 7.5rem;
+    position: absolute;
+    top: 0.88rem;
+    bottom: 0;
+    padding: 0.16rem 0.24rem;
+    box-sizing: border-box;
+    display: block;
+}
+.table{
+    height: auto;
+    padding: 0.64rem 0;
+    overflow: hidden;
+    align-items: center;
+
+}
+.table > li{
+    height: 2.58rem;
+    border-bottom: 0.01rem #eef1f2;
+    position: relative;
+}
+.choose{
+    width: 0.24rem;
+    height: 0.24rem;
+    border-radius: 50%;
+    background: #e7f6ff;
+    float: left;
+    position: absolute;
+    left: 0;
+    top: 0.7rem;
+}
+.table  > li > .choose:hover{
+    background: rgba(55,223,116,0.75);
+}
+.table > li > a >img{
+    width: 1.74rem;
+    height: 1.74rem;
+    margin-left: 0.58rem;
+    float: left;
+}
+.table .detail > span{
+    color: #000000;
+    opacity: 0.6;
+    font-size: 0.3rem;
+    margin: 0.45rem 0 0.3rem 0.24rem;
+}
+.detail > img{
+    width: 0.34rem;
+    height: 0.34rem;
+    border-radius: 50rem;
+    float: right;
+}
+.detail > p{
+    color: #36a8fe;
+    font-size: 0.26rem;
+    margin: 0 0.15rem;
+    float: right;
+}
+.table .price{
+    color: #8e9397;
+    opacity: 0.8;
+    font-size: 0.26rem;
+    float: left;
+    margin-left: 0.24rem;
+}
+footer{
+    position: fixed;
+    width: 100%;
+    height: 0.98rem;
+    background: #f1f9ff;
+    left: 0;
+    bottom: 0;
+    padding: 0 0.22rem;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.chackall{
+    height: 0.25rem;
+    float: left;
+    color: #3bacfe;
+    font-size: 0.24rem;
+    padding-left: 0.53rem;
+    position: relative;
+}
+.chackall::before{
+    content: '';
+    width: 0.24rem;
+    height: 0.24rem;
+    border-radius: 50%;
+    background: rgba(55,223,116,0.75);
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+/*footer > .chackall > .chackall::before:hover{*/
+/*    background: rgba(55,223,116,0.75);*/
+/*}*/
+.total{
+    float: left;
+    margin: 0.22rem 0;
+}
+.all {
+    color: #3bacfe;
+    opacity: 0.6;
+    font-size: 0.24em;
+    padding-left: 0.14rem;
+    position: relative;
+    align-items: center;
+}
+.all >b{
+    font-size: 0.36rem;
+    opacity: 1;
+    color: #36a8fe;
+}
+.all:before{
+    content: '';
+    width: 0.05rem;
+    height: 0.05rem;
+    background: #44b5ff;
+    border-bottom: 0.03rem;
+    position: absolute;
+    left: 0;
+    top: 0.2rem;
+}
+footer > .total > p{
+    color: #3bacfe;
+    opacity: 0.6;
+    font-size: 0.2rem;
+    padding-left: 0.14rem;
+    position: relative;
+}
+footer p:before{
+    content: '';
+    width: 0.05rem;
+    height: 0.05rem;
+    background: #44b5ff;
+    border-bottom: 0.03rem;
+    position: absolute;
+    left: 0;
+    bottom: 0.2rem;
+}
+footer > img{
+    float: right;
+    width: 3.8rem;
+    height: 0.6rem;
+}
+

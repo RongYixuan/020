@@ -1,0 +1,330 @@
+@import "base.css";
+body{
+    background: #fbfeff;
+}
+header{
+    width: 100%;
+    height: 0.88rem;
+    background: #fbfeff;
+    line-height: 0.88rem;
+    padding: 0 0.24rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+}
+header > a{
+    color: #36a8fe;
+}
+header p{
+    color: #4ebbfe;
+    font-size: 0.38rem;
+    line-height: 0.88rem;
+    text-align: center;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+.banner {
+    width: 100%;
+    height: 7.02rem;
+    padding: 1.7rem 2.24rem;
+    box-sizing: border-box;
+}
+.box{
+    width: 7.5rem;
+    position: absolute;
+    top: 7.9rem;
+    bottom: 0;
+    padding: 0.16rem 0.24rem;
+    box-sizing: border-box;
+}
+.box h2{
+    font-size: 0.3rem;
+    opacity: 0.6;
+    color: #000000;
+    height: 0.29rem;
+    line-height: 0.29rem;
+    font-weight: normal;
+}
+.box p{
+    font-size: 0.22rem;
+    opacity: 0.3;
+    color: #000000;
+    display: -webkit-box;
+    -webkit-box-orient: vertical ;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    margin: 0.15rem 0.18rem 0.15rem 0;
+}
+.box .price{
+    font-size: 0.26rem;
+    font-weight: normal;
+    color: #fbb548;
+    margin-right: 0.23rem;
+}
+.box > span.diposit{
+    padding: 0.08rem 0.18rem;
+    background-color: rgba(65,178,252,0.1);
+    border-radius: 0.18rem;
+    font-size: 0.2rem;
+    color: #41b2fc;
+}
+.box > span.service{
+    color: #36d681;
+    padding: 0.08rem 0.18rem;
+    background-color: rgba(65,178,252,0.1);
+    border-radius: 0.18rem;
+    font-size: 0.2rem;
+}
+.sale{
+    font-size: 0.2rem;
+    color: #000000;
+    opacity: 0.3;
+    line-height: 0.2rem;
+    float: right;
+    padding: 0.2rem 0.11rem;
+    position: relative;
+}
+.sale::before{
+    content: '';
+    width: 0.06rem;
+    height: 0.06rem;
+    border-radius: 50%;
+    color: #36d681;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.sale b{
+    color:  #36a8fe;
+}
+.border{
+    height: 0.01rem;
+    width: 7.02rem;
+    background: #d8dfe3;
+    opacity: 0.3;
+    margin: 0.18rem 0;
+}
+.quan > img{
+    height: 0.3rem;
+    width: 0.49rem;
+}
+.ticket{
+    color: #ff844e;
+    font-size: 0.24rem;
+}
+.ticket > b{
+    background-image: linear-gradient(270deg, #ffca3b 0%, #ff933b 100%), linear-gradient(#ffc471, #ffc471);
+    padding: 0.08rem 0.27rem;
+    border-radius: 0.2rem;
+    color: #fbfeff;
+    margin-left: 0.13rem;
+}
+.promise{
+    color: #41b2fc;
+    font-size: 0.24rem;
+    padding-left: 0.1rem;
+}
+.promise:before{
+    content: '';
+    width: 0.06rem;
+    height: 0.06rem;
+    border-radius: 50%;
+    color: #36d681;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.box span.promise:nth-child(2){
+    margin-left: 0.98rem;
+}
+.box span.promise:nth-child(3){
+    margin-left: 0.98rem;
+}
+
+.title{
+    margin-top: 0.43rem;
+    font-size: 0.32rem;
+}
+.box .title > span{
+    padding: 0 0.22rem;
+    color: #41b2fc;
+    position: relative;
+}
+.box .title > span > b{
+    color: #4f5b64;
+}
+.title span::before{
+    content: '';
+    width: 0.1rem;
+    height: 0.05rem;
+    background-color: #44b5ff;
+    border-radius: 0.03rem;
+    position: absolute;
+    left: 0;
+    top: 0.2rem;
+}
+.title >a{
+    font-size: 0.22rem;
+    color: #3bacfe;
+    float: right;
+    line-height: 0.44rem;
+    height: 0.44rem;
+}
+h1.title > a >i:last-child{
+    opacity: 0.5;
+}
+.comment{
+    height: auto;
+    padding: 0.3rem 0.22rem;
+}
+.comment > li{
+    border-bottom: 0.01rem ;
+}
+.comment .avatar{
+    width: 0.86rem;
+    height: 0.86rem;
+    border-radius: 50%;
+    overflow: hidden;
+    flex: none;
+    float: left;
+    /* 确保定宽图片不被压缩 */
+}
+.comment .info{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    padding-top: 0.3rem;
+}
+.infotop{
+    margin-left: 0.2rem;
+    overflow: hidden;
+    font-size: 0.2rem;
+    color: #cfcfcf;
+}
+.info .user{
+    float: left;
+    margin-right: 0.4rem;
+}
+.info .date{
+    color: #9ed5ff;
+    float: right;
+    position: relative;
+}
+.infotop .star img{
+    position: absolute;
+    width: 1.28rem;
+    left: 0;
+    top: 0;
+}
+.info > p{
+    color: #000000;
+    opacity: 0.6;
+    font-size: 0.26rem;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+    margin: 0.2rem 0 0.18rem 0;
+}
+.info .place{
+    color: #000000;
+    opacity: 0.3;
+    margin: 0 0 0.18rem 0;
+}
+.info .img{
+    width: 1.78rem;
+    height: 1.28rem;
+    margin-bottom: 0.59rem;
+}
+.detail >h2{
+    font-size: 0.32rem;
+}
+.detail > .title > span{
+    color: #35db82;
+}
+.detail > img{
+    width: 3rem;
+    height: 2rem;
+}
+.recommendtable{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: space-around
+}
+.recommend >h2{
+    font-size: 0.32rem;
+}
+.recommend > .title > span{
+    color: #35db82;
+}
+.recommendtable > li{
+    margin-top: 0.69rem;
+}
+.recommendtable > li >img{
+    width: 1.31rem;
+    height: 1.37rem;
+    margin-bottom: 0.18rem;
+}
+.recommendtable .name{
+    color: #000000;
+    opacity: 0.6;
+    font-size: 0.26rem;
+    margin: 0.18rem 0;
+}
+.recommendtable > li > p{
+    color: #fbb548;
+    font-size: 0.28rem;
+    opacity: 1;
+}
+footer{
+    position: fixed;
+    width: 100%;
+    height: 0.98rem;
+    background: #f1f9ff;
+    left: 0;
+    bottom: 0;
+    padding: 0 0.22rem;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer > a{
+    width: 0.7rem;
+    height: 100%;
+    padding-top: 0.1rem;
+    font-size: 0.24rem;
+    color: #9ddcff;
+    text-align: center;
+    box-sizing: border-box;
+    opacity: 0.5;
+}
+footer > a:hover{
+    opacity: 1;
+}
+footer > a >img{
+    width: 0.5rem;
+    height: 0.5rem;
+    display: inline-block;
+}
+footer a.hot{
+    opacity: 1;
+}
+footer .add{
+     background-image: linear-gradient(90deg, #37e06f 0%, #31d69a 100%), linear-gradient(#3bacfe, #3bacfe);
+     width: 1.96rem;
+     height: 0.6rem;
+     color: #ffffffff;
+     border-radius: 0.3rem;
+ }
+footer .buy{
+    background: #3bacfe;
+    width: 1.96rem;
+    height: 0.6rem;
+    color: #ffffffff;
+    border-radius: 0.3rem;
+
+}
