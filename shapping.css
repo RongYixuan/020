@@ -130,7 +130,7 @@ footer{
     float: left;
     color: #3bacfe;
     font-size: 0.24rem;
-    padding-left: 0.53rem;
+    padding-left: 0.4rem;
     position: relative;
 }
 .chackall::before{
@@ -141,7 +141,7 @@ footer{
     background: rgba(55,223,116,0.75);
     position: absolute;
     left: 0;
-    top: 0;
+    top: 0.03rem;
 }
 /*footer > .chackall > .chackall::before:hover{*/
 /*    background: rgba(55,223,116,0.75);*/
